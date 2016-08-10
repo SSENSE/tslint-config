@@ -1,6 +1,6 @@
 {
-  "name": "tslint-config",
-  "version": "0.1.0",
+  "name": "@ssense/tslint-config",
+  "version": "1.0.0",
   "description": "SSENSE's base TSLint configuration",
   "main": "index.js",
   "scripts": {
