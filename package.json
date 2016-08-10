@@ -1,0 +1,33 @@
+{
+  "name": "tslint-config",
+  "version": "0.1.0",
+  "description": "SSENSE's base TSLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSENSE/tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "ssense",
+    "tslintconfig",
+    "tslintmicrosoft",
+    "typescript",
+    "style"
+  ],
+  "author": "Nebez Briefkani <nebez.briefkani@ssense.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SSENSE/tslint-config/issues"
+  },
+  "homepage": "https://github.com/SSENSE/tslint-config#readme",
+  "dependencies": {
+    "tslint": "3.14.0",
+    "tslint-microsoft-contrib": "2.0.9",
+    "typescript": "1.8.10"
+  }
+}
