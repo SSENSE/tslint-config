@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/SSENSE/tslint-config#readme",
   "dependencies": {
-    "tslint": "3.14.0",
+    "tslint": "3.14.*",
     "tslint-microsoft-contrib": "2.0.9",
     "typescript": "1.8.10"
   }
