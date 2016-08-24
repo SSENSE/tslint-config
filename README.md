@@ -1,5 +1,7 @@
 ## tslint-config
 
+[![npm version](https://badge.fury.io/js/%40ssense%2Ftslint-config.svg)](https://badge.fury.io/js/%40ssense%2Ftslint-config)
+
 The [tslint](http://palantir.github.io/tslint/) config we use at **SSENSE** for all TypeScript projects. It's a combination of base rules provided by tslint as well as rules from [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib).
 
 #### Installation
