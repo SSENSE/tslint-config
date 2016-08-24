@@ -5,7 +5,7 @@ namespace Test {
             return null;
         }
 
-        public baz(): void {
+        public baz(): any {
             return undefined;
         }
     }
