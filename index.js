@@ -81,7 +81,12 @@ module.exports = {
         'class-name': true,
         'comment-format': [true, 'check-space'],
         'export-name': true,
-        'function-name': true,
+        'function-name': [true, {
+            'method-regex': '^[a-z][\w\d]+$',
+            'private-method-regex': '^[a-z][\w\d]+$',
+            'static-method-regex': '^[A-Z][\w\d]+$',
+            'function-regex': '^[a-z][\w\d]+$'
+        }],
         'import-name': true,
         'interface-name': [true, 'never-prefix'],
         'jsdoc-format': true,
@@ -119,7 +124,7 @@ module.exports = {
          * Whitespace related rules. The only recommended whitespace strategy is to pick a single format and
          * be consistent.
          */
-        'align': [true, 'parameters', 'arguments', 'statements'],
+        'align': [true, 'parameters', 'statements'],
         'curly': true,
         'eofline': true,
         'indent': [true, 'spaces'],
