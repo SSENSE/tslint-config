@@ -15,7 +15,6 @@ module.exports = {
         'no-disable-auto-sanitization': true,
         'no-document-domain': true,
         'no-document-write': true,
-        'no-duplicate-key': true,
         'no-eval': true,
         'no-exec-script': true,
         'no-function-constructor-with-string-args': true,
@@ -27,7 +26,6 @@ module.exports = {
         'no-string-based-set-interval': true,
         'no-string-based-set-timeout': true,
         'react-no-dangerous-html': true,
-        'use-strict': true,
 
         /**
          * Common Bugs and Correctness. The following rules should be turned on because they find
@@ -37,7 +35,6 @@ module.exports = {
         'forin': true,
         'jquery-deferred-must-complete': true,
         'label-position': true,
-        'label-undefined': true,
         'mocha-avoid-only': true,
         'no-any': false,
         'no-arg': true,
@@ -62,7 +59,6 @@ module.exports = {
         'no-unnecessary-bind': true,
         'no-unnecessary-override': true,
         'no-unused-expression': true,
-        'no-unused-variable': true,
         'no-use-before-declare': true,
         'no-with-statement': true,
         'promise-must-complete': true,
@@ -96,7 +92,6 @@ module.exports = {
         'member-ordering': true,
         'new-parens': true,
         'no-construct': true,
-        'no-constructor-vars': true,
         'no-default-export': true,
         'no-empty-interfaces': true,
         'no-for-in': true,
