@@ -99,6 +99,7 @@ module.exports = {
         'no-inferrable-types': false,
         'no-multiline-string': false,
         'no-null-keyword': false,
+        'no-parameter-properties': true,
         'no-relative-imports': false,
         'no-require-imports': true,
         'no-shadowed-variable': true,
