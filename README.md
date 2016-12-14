@@ -21,3 +21,11 @@ The [tslint](http://palantir.github.io/tslint/) config we use at **SSENSE** for 
     "extends": "@ssense/tslint-config"
 }
 ```
+
+
+#### corresponding SSENSE TSLint, TSLint and tslint-microsoft-contrib version
+
+| SSENSE VERSION | TSLint version | tslint-microsoft-contrib version |
+| --- | --- | --- |
+| **>= 4.x** | >= 4.x | 4.x |
+| **>= 2.x** | >= 3.2.x | 2.x |

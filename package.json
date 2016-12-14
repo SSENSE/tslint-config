@@ -1,6 +1,6 @@
 {
   "name": "@ssense/tslint-config",
-  "version": "2.1.1",
+  "version": "4.0.0",
   "description": "SSENSE's base TSLint configuration",
   "main": "index.js",
   "scripts": {
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/SSENSE/tslint-config#readme",
   "dependencies": {
-    "tslint-microsoft-contrib": "2.0.9"
+    "tslint-microsoft-contrib": "^4.0.0"
   },
   "devDependencies": {
-    "tslint": "3.14.*",
-    "typescript": "1.8.10"
+    "tslint": "^4.0.2",
+    "typescript": "^2.1.4"
   }
 }
