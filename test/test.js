@@ -1,21 +1,26 @@
 const Linter = require('tslint').Linter;
+const Configuration = require('tslint').Configuration;
 const fs = require('fs');
 const linterConfig = require('../index.js');
-
-const fileName = 'test_app.ts';
 
 const options = {
     rulesDirectory: linterConfig.rulesDirectory
 };
-const fileContents = fs.readFileSync(__dirname + '/' + fileName, 'utf8');
+
+const fileName = 'test_app.ts';
+
+const program = Linter.createProgram("tsconfig.json", "./test");
+const fileContents = program.getSourceFile(__dirname + '/' + fileName).getFullText();
+const files = Linter.getFileNames(program);
 
 const configuration = {
     rulesDirectory: linterConfig.rulesDirectory,
     rules: linterConfig.rules
 };
 
-const linter = new Linter(options);
-linter.lint(fileName, fileContents, configuration);
+const linter = new Linter(options, program);
+
+linter.lint(files[0], fileContents, Configuration.parseConfigFile(configuration), program);
 const result = linter.getResult();
 const expectedOutput = fs.readFileSync(__dirname + '/expected-output.txt').toString();
 

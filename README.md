@@ -12,7 +12,7 @@ The [tslint](http://palantir.github.io/tslint/) config we use at **SSENSE** for 
     * `touch tslint.json`
 3. Add the contents referenced in the section below to *tslint.json*
 4. Run **tslint**
-    * `./node_modules/.bin/tslint`
+    * `./node_modules/.bin/tslint ./tsconfig.json --type-check`
 
 #### tslint.json
 
@@ -25,7 +25,8 @@ The [tslint](http://palantir.github.io/tslint/) config we use at **SSENSE** for 
 
 #### corresponding SSENSE TSLint, TSLint and tslint-microsoft-contrib version
 
-| SSENSE VERSION | TSLint version | tslint-microsoft-contrib version |
-| --- | --- | --- |
-| **>= 4.x** | >= 4.x | 4.x |
-| **>= 2.x** | >= 3.2.x | 2.x |
+| SSENSE VERSION | TSLint version | tslint-microsoft-contrib version | Typescript version |
+| --- | --- | --- | --- |
+| **>= 5.x** | >= 5.x | 5.x | >= 2.3.x |
+| **>= 4.x** | >= 4.x | 4.x | |
+| **>= 2.x** | >= 3.2.x | 2.x | |
