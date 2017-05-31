@@ -21,8 +21,11 @@ const configuration = {
 const linter = new Linter(options, program);
 
 linter.lint(files[0], fileContents, Configuration.parseConfigFile(configuration), program);
-const result = linter.getResult();
-const expectedOutput = fs.readFileSync(__dirname + '/expected-output.txt').toString();
+var result = linter.getResult();
+const reg = new RegExp(__dirname + '/', 'g');
+result.output = result.output.replace(reg, '');
+
+var expectedOutput = fs.readFileSync(__dirname + '/expected-output.txt').toString();
 
 if (result.output.trim() !== expectedOutput.trim()) {
     throw new Error(`Linter output did not match expected output. \nActual: ${result.output}\nExpected: ${expectedOutput}`);
