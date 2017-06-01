@@ -12,7 +12,7 @@ The [tslint](http://palantir.github.io/tslint/) config we use at **SSENSE** for 
     * `touch tslint.json`
 3. Add the contents referenced in the section below to *tslint.json*
 4. Run **tslint**
-    * `./node_modules/.bin/tslint ./tsconfig.json --type-check`
+    * `./node_modules/.bin/tslint`
 
 #### tslint.json
 

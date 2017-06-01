@@ -11,7 +11,6 @@ module.exports = {
          */
         'insecure-random': true,
         'no-banned-terms': true,
-        'no-cookies': true,
         'no-delete-expression': true,
         'no-disable-auto-sanitization': true,
         'no-document-domain': true,
@@ -36,7 +35,6 @@ module.exports = {
          * Common Bugs and Correctness. The following rules should be turned on because they find
          * common bug patterns in the code or enforce type safety.
          */
-        'await-promise': true,
         'forin': true,
         'jquery-deferred-must-complete': true,
         'label-position': true,
@@ -56,8 +54,6 @@ module.exports = {
         'no-duplicate-super': true,
         'no-duplicate-variable': true,
         'no-empty': true,
-        'no-floating-promises': true,
-        'no-for-in-array': true,
         'no-import-side-effect': true,
         'no-increment-decrement': true,
         'no-invalid-regexp': true,
@@ -76,18 +72,13 @@ module.exports = {
         'no-unnecessary-callback-wrapper': true,
         'no-unnecessary-initializer': true,
         'no-unnecessary-override': true,
-        'no-unsafe-any': true,
         'no-unsafe-finally': true,
         'no-unused-expression': true,
-        'no-use-before-declare': true,
         'no-with-statement': true,
-        'promise-function-async': true,
         'promise-must-complete': true,
         'radix': true,
         'react-this-binding-issue': true,
         'react-unused-props-and-state': true,
-        'restrict-plus-operands': true, // the plus operand should really only be used for strings and numbers
-        'strict-boolean-expressions': true,
         'switch-default': true,
         'triple-equals': [true, 'allow-null-check'],
         'use-isnan': true,
@@ -137,13 +128,11 @@ module.exports = {
         'no-typeof-undefined': true,
         'no-unnecessary-field-initialization': true,
         'no-unnecessary-local-variable': true,
-        'no-unnecessary-qualifier': true,
         'no-unsupported-browser-code': true,
         'no-useless-files': true,
         'no-var-keyword': true,
         'no-var-requires': true,
         'no-var-self': true,
-        'no-void-expression': true,
         'object-literal-sort-keys': false, // turn object-literal-sort-keys off and sort keys in a meaningful manner
         'one-variable-per-declaration': true,
         'only-arrow-functions': false,  // there are many valid reasons to declare a function
@@ -233,6 +222,5 @@ module.exports = {
         'no-missing-visibility-modifiers': false, // use tslint member-access rule instead
         'no-multiple-var-decl': false,         // use tslint one-variable-per-declaration rule instead
         'no-switch-case-fall-through': false,  // now supported by TypeScript compiler
-        'typeof-compare': false,               // the valid-typeof rule is currently superior to this version
     }
 };
