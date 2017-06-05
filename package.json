@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/SSENSE/tslint-config#readme",
   "dependencies": {
+    "tslint-eslint-rules": "^4.1.1",
     "tslint-microsoft-contrib": "^5.0.0"
   },
   "devDependencies": {

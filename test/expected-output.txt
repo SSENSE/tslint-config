@@ -1,4 +1,6 @@
 ERROR: test_app.ts[1, 3]: comment must start with a space
 ERROR: test_app.ts[3, 5]: The exported module or identifier name must match the file name. Found: test_app.ts and Foo
 ERROR: test_app.ts[4, 16]: Method name does not match /^[a-z][\w\d]+$/: Bar
+ERROR: test_app.ts[14, 2]: statements are not aligned
 ERROR: test_app.ts[2, 1]: 'namespace' and 'module' are disallowed
+ERROR: test_app.ts[14, 1]: Expected indentation of 0 spaces but found 1.

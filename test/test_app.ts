@@ -10,3 +10,5 @@ namespace Test {
         }
     }
 }
+
+ const test: any = 'nll';

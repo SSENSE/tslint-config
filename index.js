@@ -1,8 +1,11 @@
 var path = require('path');
 
+const tslintEslintRules = require('tslint-eslint-rules');
+
 module.exports = {
     'rulesDirectory': [
-        path.dirname(require.resolve('tslint-microsoft-contrib'))
+        path.dirname(require.resolve('tslint-microsoft-contrib')),
+        path.dirname(require.resolve('tslint-eslint-rules')) + '/' + tslintEslintRules.rulesDirectory
     ],
     'rules': {
         /**
@@ -222,5 +225,7 @@ module.exports = {
         'no-missing-visibility-modifiers': false, // use tslint member-access rule instead
         'no-multiple-var-decl': false,         // use tslint one-variable-per-declaration rule instead
         'no-switch-case-fall-through': false,  // now supported by TypeScript compiler
+
+        'ter-indent': [true, 4]
     }
 };
