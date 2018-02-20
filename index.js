@@ -53,7 +53,7 @@ module.exports = {
         'no-constant-condition': true,
         'no-control-regex': true,
         'no-debugger': true,
-        'no-duplicate-case': true,
+        'no-duplicate-switch-case': true,
         'no-duplicate-super': true,
         'no-duplicate-variable': true,
         'no-empty': true,
@@ -68,11 +68,11 @@ module.exports = {
         'no-reference-import': true,
         'no-regex-spaces': true,
         'no-sparse-arrays': true,
-        'no-stateless-class': true,
         'no-string-literal': true,
         'no-string-throw': true,
         'no-unnecessary-bind': true,
         'no-unnecessary-callback-wrapper': true,
+        'no-unnecessary-class': true,
         'no-unnecessary-initializer': true,
         'no-unnecessary-override': true,
         'no-unsafe-finally': true,
@@ -84,9 +84,9 @@ module.exports = {
         'react-unused-props-and-state': true,
         'switch-default': true,
         'triple-equals': [true, 'allow-null-check'],
+        'typeof-compare': true,
         'use-isnan': true,
         'use-named-parameter': true,
-        'valid-typeof': true,
 
         /**
          * Code Clarity. The following rules should be turned on because they make the code
@@ -128,6 +128,7 @@ module.exports = {
         'no-require-imports': true,
         'no-shadowed-variable': true,
         'no-suspicious-comment': true,
+        'no-this-assignment': true,
         'no-typeof-undefined': true,
         'no-unnecessary-field-initialization': true,
         'no-unnecessary-local-variable': true,
@@ -135,7 +136,6 @@ module.exports = {
         'no-useless-files': true,
         'no-var-keyword': true,
         'no-var-requires': true,
-        'no-var-self': true,
         'object-literal-sort-keys': false, // turn object-literal-sort-keys off and sort keys in a meaningful manner
         'one-variable-per-declaration': true,
         'only-arrow-functions': false,  // there are many valid reasons to declare a function
