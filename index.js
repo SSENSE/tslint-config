@@ -84,7 +84,7 @@ module.exports = {
         'react-unused-props-and-state': true,
         'switch-default': true,
         'triple-equals': [true, 'allow-null-check'],
-        'typeof-compare': true
+        'typeof-compare': true,
         'use-isnan': true,
         'use-named-parameter': true,
 
