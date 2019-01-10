@@ -53,7 +53,7 @@ module.exports = {
         'no-constant-condition': true,
         'no-control-regex': true,
         'no-debugger': true,
-        'no-duplicate-case': true,
+        'no-duplicate-switch-case': true,
         'no-duplicate-super': true,
         'no-duplicate-variable': true,
         'no-empty': true,
@@ -68,7 +68,7 @@ module.exports = {
         'no-reference-import': true,
         'no-regex-spaces': true,
         'no-sparse-arrays': true,
-        'no-stateless-class': true,
+        'no-unnecessary-class': true,
         'no-string-literal': true,
         'no-string-throw': true,
         'no-unnecessary-bind': true,
@@ -86,7 +86,6 @@ module.exports = {
         'triple-equals': [true, 'allow-null-check'],
         'use-isnan': true,
         'use-named-parameter': true,
-        'valid-typeof': true,
 
         /**
          * Code Clarity. The following rules should be turned on because they make the code
@@ -135,7 +134,7 @@ module.exports = {
         'no-useless-files': true,
         'no-var-keyword': true,
         'no-var-requires': true,
-        'no-var-self': true,
+        'no-this-assignment': true,
         'object-literal-sort-keys': false, // turn object-literal-sort-keys off and sort keys in a meaningful manner
         'one-variable-per-declaration': true,
         'only-arrow-functions': false,  // there are many valid reasons to declare a function
